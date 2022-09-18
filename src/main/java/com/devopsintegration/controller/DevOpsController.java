@@ -10,7 +10,7 @@ public class DevOpsController {
 
     @GetMapping("/devops/message")
     public ResponseEntity<?> getEmployeeByID() {
-        return new ResponseEntity<>("API call working well", HttpStatus.OK);
+        return new ResponseEntity<>("Devops demo API call working well", HttpStatus.OK);
     }
 
 }
